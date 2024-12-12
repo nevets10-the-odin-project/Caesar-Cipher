@@ -3,7 +3,7 @@ def caesar_cipher(string, shift)
   new_arr = []
 
   str_arr.each do |char|
-    unless char.between?("0", "z") 
+    unless char.between?("a", "z") 
       new_arr << char.chr
       next
     end
